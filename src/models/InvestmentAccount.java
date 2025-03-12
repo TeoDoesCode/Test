@@ -10,7 +10,7 @@ public class InvestmentAccount extends BankAccount {
     }
 
     public InvestmentAccount(int accountNo, String accountName, double minimumBalance, double interest){
-        super(accountNo);
+        super(accountNo, accountName);
         this.minimumBalance = minimumBalance;
         this.interest = interest;
     }
